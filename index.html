@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+
+<title>
+    form page
+</title>
+</head>
+<body >
+        
+    <div class="header">
+            <h1 >form page</h1>
+    </div>
+    
+    <form name='newpage'>
+      <div>
+         <input type="text" name="tbox" id="tbox" placeholder="name"/>
+         <select id="db">
+            <option value="text">text</option>
+            <option value="password">password</option>
+            <option value="email">email</option>
+            <option value="checkbox">checkbox</option>
+          </select>
+        <input id="btnAdd" type="button" value="add" onclick="check()" />
+        <br />
+        <br />
+        <div id="TextBoxContainer">
+            
+        </div>
+        <br />
+        
+        <input type="button" name="post" value="Post" id="post" onclick="posted()" />
+        
+        
+        
+
+        <input type="button" value="Generate Table" onclick="myTable()" />
+        <table id="myTable">
+           
+          </table>
+          <br/>
+
+    
+    </div>
+    </form>
+    </body>
+    <link rel="stylesheet" type="text/css" href="style.css">
+   
+<script type="text/javascript" src="form1.js"></script>
+
+    </html>
