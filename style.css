@@ -1,0 +1,17 @@
+
+body{
+    text-align: center;
+    margin-right: 10px;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size:14px;
+
+}
+ .header{
+    background-color: blueviolet;
+} 
+
+table, td {
+    border: 1px solid black;
+    text-align: center;
+}
+
